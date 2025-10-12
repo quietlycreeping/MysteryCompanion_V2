@@ -24,7 +24,7 @@ let x = setInterval(function()
   if (distance < 0) 
   {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "It's Party Time!";
+    document.getElementById("countdown").innerHTML = a;
   }
 }, 1000);
 //1000 means it'll update every second
