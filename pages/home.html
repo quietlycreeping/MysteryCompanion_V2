@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
 <!-- #region STYLING --> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="../assests/stylesheets/header.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link rel="stylesheet" href="../assests/stylesheets/header.css">
     <link rel="stylesheet" href="../assests/stylesheets/header.css">
     <link rel="stylesheet" href="../assests/stylesheets/footer.css">
     <link rel="stylesheet" href="../assests/stylesheets/home.css">  
@@ -29,12 +30,13 @@
 <!-- #region HEADER -->             
     <nav class="navbar" style="padding: 0 0 1% 0; margin:0 0 2% 0">
       <img src="../assests/images/header.jpg" class="object-fit-none" style="overflow: hidden; padding: 0; margin:0">
-      <div class="container d-flex justify-content-center">
-        <a href="home.html"><img src="../assests/images/icons/home.png" width="60" ></a><p></p><p></p>
-        <a href="tasks2.html"><img src="../assests/images/icons/tasks.png" width="60" ></a><p></p><p></p>
-        <a href="profile.html"><img src="../assests/images/icons/profile_human.png" width="60"></a>
-      </div>
     </nav>
+    <div style="display: grid; justify-content: space-evenly; grid-template-columns: auto auto auto auto;" >
+      <a href="home.html" ><img src="../assests/images/icons/home.png" width="60" ></a>
+      <a href="tasks2.html" ><img src="../assests/images/icons/tasks.png" width="60" ></a>
+      <a href="profile.html"><img src="../assests/images/icons/profile_human.png" width="60"></a>
+      <a href="profile.html"><img src="../assests/images/icons/profile_human.png" width="60"></a>
+    </div>
 <!-- #endregion -->
 
 <!-- #region COUNTDOWN -->
@@ -43,7 +45,7 @@
         <h1 id="countdown" style="margin:2px;"></h1>
       </div> 
       <div class="d-flex justify-content-center">
-        <h2>Till the Blood Moon Ball!<br>& Inductee Ceremony</h2>
+        <h2>Till the Blood Moon Bash!<br>& Inductee Ceremony</h2>
       </div>
     </div>
 <!-- #endregion -->
@@ -136,8 +138,8 @@
           </button>
           <div class="collapse" id="collapse1_1">
             <div class="card card-body">
-              Once a feared warlord, now the immortal ruler of the Villains Vanguard. 
-              With power slipping, Dracula must secure his influence tonight—or be dethroned.
+              <p>Once a feared warlord, now the immortal ruler of the Villains Vanguard. 
+              With power slipping, Dracula must secure his influence tonight—or be dethroned.</p> 
             </div></div><p></p>
       </div>
 <!--Col 1.2, Maleficent --> 
@@ -151,8 +153,8 @@
         </button>
         <div class="collapse" id="collapse1_2">
           <div class="card card-body">
-            A powerful and menacing force, Maleficent has spent centuries shaping villainy. 
-            With rivalries brewing, Maleficent must ensure her influence remains unchallenged.            
+            <p>A powerful and menacing force, Maleficent has spent centuries shaping villainy. 
+            With rivalries brewing, Maleficent must ensure her influence remains unchallenged.</p>             
           </div></div><p></p>
       </div>
     </div>    
@@ -167,8 +169,8 @@
             View Bio</button>
         <div class="collapse" id="collapse2_1">
           <div class="card card-body">
-            A cunning sorcerer of the deep, Ursula thrives on deception. 
-            Tonight, the witch plans to pull the strings before someone else does.            
+            <p>A cunning sorcerer of the deep, Ursula thrives on deception. 
+            Tonight, the witch plans to pull the strings before someone else does.</p>             
           </div></div><p></p>
       </div>
   <!--Col 2.2, Jafar --> 
@@ -180,8 +182,8 @@
             View Bio</button>
         <div class="collapse" id="collapse2_2">
           <div class="card card-body">
-            A former advisor turned master manipulator, Jafar must decide whether to reinforce old alliances 
-            or betray them for something greater.            
+            <p>A former advisor turned master manipulator, Jafar must decide whether to reinforce old alliances 
+            or betray them for something greater.</p>             
           </div></div><p></p>
       </div>
     </div>
@@ -196,7 +198,7 @@
             View Bio</button>
         <div class="collapse" id="collapse3_1">
           <div class="card card-body">
-            A refined intellectual with particular tastes. Hannibal's hunger for power may be more dangerous than their appetite for flesh.           
+            <p>A refined intellectual with particular tastes. Hannibal's hunger for power may be more dangerous than their appetite for flesh.</p>            
           </div></div><p></p>
       </div>
   <!--Col 3.2, Kingpin--> 
@@ -208,7 +210,7 @@
             View Bio</button>
         <div class="collapse" id="collapse3_2">
           <div class="card card-body">
-            A mastermind of deals and betrayals, Kingpin sees tonight as a game of power—and they intend to win.           
+            <p>A mastermind of deals and betrayals, Kingpin sees tonight as a game of power—and they intend to win.</p>            
           </div></div><p></p>
       </div>
     </div>  
@@ -223,7 +225,7 @@
             View Bio</button>
         <div class="collapse" id="collapse4_1">
           <div class="card card-body">
-            A nightmare made flesh, Freddy may have been testing new horrors—and to-night, someone may have paid the price.
+            <p>A nightmare made flesh, Freddy may have been testing new horrors—and to-night, someone may have paid the price.</p> 
           </div></div><p></p>
       </div>
   <!--Col 4.2, Joker--> 
@@ -235,29 +237,16 @@
             View Bio</button>
         <div class="collapse" id="collapse4_2">
           <div class="card card-body">
-            A wild, unpredictable menace who thrives on disorder. Joker promised to behave—but no one really believes that.            
+            <p>A wild, unpredictable menace who thrives on disorder. Joker promised to behave—but no one really believes that.</p>             
           </div></div><p></p>
       </div>
     </div>
 <!--Row 5-->
     <div class="row">
-  <!--Col 5.1, Katie--> 
-      <div class="col">
-        <img src="../assests/images/profile/Spanky.jpg" class="img-fluid">
-        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
-            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-          </svg>
-            View Bio</button>
-        <div class="collapse" id="collapse5_1">
-          <div class="card card-body">
-            Curious aren't we? <br>
-            If you can be the first to find and answer my riddle who'll gain 5 coins. 
-            Send your answer to Jenny.
-            <!-- Unfortunately, I have nothing to give you. But you're welcome to find and solve my riddle for fun.-->           
-          </div></div><p></p>
-      </div>
+      <!--Col 5.1--> 
+      <div class="col"></div>
   <!--Col 5.2, Cruella Deville--> 
-      <div class="col">
+      <div class="col-6">
         <img src="../assests/images/profile/Bouncy.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
@@ -265,10 +254,12 @@
             View Bio</button>
         <div class="collapse" id="collapse5_2">
           <div class="card card-body">
-            Draped in decadence and disdain, Cruella expects admiration—but if someone challenges her status, they'll regret it.          
+            <p>Draped in decadence and disdain, Cruella expects admiration—but if someone challenges her status, they'll regret it.</p>           
           </div></div><p></p>
       </div>
-    </div>
+      <!--Col 5.3--> 
+      <div class="col"></div></div>
+
 <!--MORE MEMBERS-->
 <div class="container mx-auto" style="margin:2% ; padding:1%" id="home_con3">
     <h3>Honorary Members</h3>
@@ -285,8 +276,8 @@
         </button>
         <div class="collapse" id="collapse2_1_1">
           <div class="card card-body">
-            A cursed legend who knows she deserves power. 
-            Tonight is her chance to claim her Cold, cunning, and determined to be the “fairest of them all”—by any means necessary.
+            <p>A cursed legend who knows she deserves power. 
+            Tonight is her chance to claim her Cold, cunning, and determined to be the “fairest of them all”—by any means necessary.</p> 
           </div></div><p></p>
     </div>
 <!--Col 2_1.2, Evil_Queen --> 
@@ -300,13 +291,13 @@
       </button>
       <div class="collapse" id="collapse2_1_2">
         <div class="card card-body">
-          Cold, cunning, and determined to be the “fairest of them all”—by any means necessary.           
+          <p>Cold, cunning, and determined to be the “fairest of them all” —by any means necessary.</p>            
         </div></div><p></p>
     </div>
   </div>    
 <!--Row 2-->
   <div class="row">
-<!--Col 2_2.1, Queen of Hearts--> 
+<!--Col 2_2.1, Chucky--> 
     <div class="col">
       <img src="../assests/images/profile/Connie.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_2_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
@@ -315,10 +306,10 @@
           View Bio</button>
       <div class="collapse" id="collapse2_2_1">
         <div class="card card-body">
-          A sovereign with a short temper and an iron grip on power. If the vote doesn't go their way, heads will roll.        
+          <p>A once-human nightmare in a pint-sized package. Someone underestimated Chucky tonight—an error they won't repeat.</p>        
         </div></div><p></p>
     </div>
-<!--Col 2_2.2, Chucky --> 
+<!--Col 2_2.2, Tiffany --> 
     <div class="col">
       <img src="../assests/images/profile/Kristy.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_2_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
@@ -327,13 +318,13 @@
           View Bio</button>
       <div class="collapse" id="collapse2_2_2">
         <div class="card card-body">
-          A once-human nightmare in a pint-sized package. Someone underestimated Chucky tonight—an error they won't repeat.            
+          <p>Part of a terrifying duo. Someone disparaged her beloved, Chucky -and they <b>will</b> painfully pay the price.</p>            
         </div></div><p></p>
     </div>
   </div>
 <!--Row 3-->
   <div class="row">
-<!--Col 3.1, Harley Quinn--> 
+<!--Col 2_3.1, Queen of Hearts--> 
     <div class="col">
       <img src="../assests/images/profile/Jingle.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_3_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
@@ -342,10 +333,10 @@
           View Bio</button>
       <div class="collapse" id="collapse2_3_1">
         <div class="card card-body">
-          Torn between love and ambition, Harley will get into the Villains Vanguard to-night—or someone will pay.           
+          <p>A sovereign with a short temper and an iron grip on power. If the vote doesn't go their way, heads will roll.</p>              
         </div></div><p></p>
     </div>
-<!--Col 2_3.2, Poison_Ivy--> 
+<!--Col 2_3.2, Harley Quinn--> 
     <div class="col">
       <img src="../assests/images/profile/Jangle.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_3_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
@@ -354,7 +345,7 @@
           View Bio</button>
       <div class="collapse" id="collapse2_3_2">
         <div class="card card-body">
-          A genius with a deadly green thumb. Something toxic is circulating tonight, and if Poison Ivy is behind it, they aren't talking.          
+          <p>Torn between love and ambition, Harley will get into the Villains Vanguard tonight —or someone will pay.</p>          
         </div></div><p></p>
     </div>
   </div>  
@@ -362,7 +353,7 @@
   <div class="row">
     <!--Col 4.1--> 
     <div class="col"></div>
-<!--Col 2_4.2, Calcifer--> 
+<!--Col 2_4.2, Poison_Ivy--> 
     <div class="col-6">
       <img src="../assests/images/profile/Spanky.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_4_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
@@ -371,10 +362,7 @@
           View Bio</button>
       <div class="collapse" id="collapse2_4_2">
         <div class="card card-body">
-          You walk into an old horror house. It has no power or plumbing. Once inside, you see three doors. Each door has a number on it. 
-          Behind each door is a way for you to die. Behind door number one, you die by getting eaten by a lion. Behind door number two, you die 
-          by getting a gunshot to the face. Behind door number three, you die by electric chair. <br>You can't turn back, so you have to go through a door. 
-          <br>Which door do you go through?           
+          <p>A genius with a deadly green thumb. Something toxic is circulating tonight, and if Poison Ivy is behind it, they aren't talking.</p>            
         </div></div><p></p>
     </div>
 <!--Col 4.3--> 
