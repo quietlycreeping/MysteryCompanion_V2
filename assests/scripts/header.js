@@ -10,14 +10,13 @@ var loggedIn;
 //#endregion
 
 //#region LoadIn Variables 
-let evindenceElement = '<a href="evidence.html"><img src="../assests/images/icons/evidence.png" width="60"></a>';
+let evindenceElement = '<a href="/pages/evidence.html"><img src="/assests/images/icons/evidence.png" width="60"></a>';
 
 let tasksElement;
 let tasksMurderElement;
 
 let profileElement;
 //#endregion
-
 
 //#region Load Cache Links 
 loadCache(tasksElement, 'tasksElement');
@@ -28,11 +27,11 @@ loadCache(profileElement, 'profileElement');
 if (profileElement == null) //so if not logged in
 {
     //lead to log on screen
-    profileElement = '<a href="evidence.html"><img src="../assests/images/icons/evidence.png" width="60"></a>'
+    profileElement = '<a href="/pages/logon.html"><img src="/assests/images/icons/evidence.png" width="60"></a>'
     loggedIn = false;
 }
 
-//#region Header Load and Image Load: head = HOME ABOUT EVINDENCE TASKS PROFILE---------------------
+//#region Header Load: head = HOME ABOUT EVINDENCE TASKS PROFILE---------------------
 //HOME + ABOUT doesn't change
 document.getElementById("evindenceHeader").innerHTML = murder ? evindenceElement : null;
 
@@ -41,11 +40,6 @@ document.getElementById("tasksHeader").innerHTML = party ? (loggedIn ? (murder ?
 
 document.getElementById("profileHeader").innerHTML = profileElement;
 //#endregion
-
-function saveCache(key, vaule)
-{
-    localStorage.setItem(key, vaule);
-}
 
 function loadCache(variable, key)
 {
