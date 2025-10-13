@@ -5,21 +5,51 @@ const  party = false;
 //did the murder occur? In second half of party? Hide second tasks and edvindence.
 const  murder = false;
 //Are they logged in? And who? Null if not logged in. Help lead to correct profile page.
-var loggedIn = "null";
+var loggedIn;
 
 //#endregion
 
-//#region Header Variables 
-homeElement = '<a href="home.html"><img  src="../assests/images/icons/home.png" width="60" ></a>';
-homeMurderElement = '<a href="home_2.html"><img  src="../assests/images/icons/home.png" width="60" ></a>';
+//#region LoadIn Variables 
+let evindenceElement = '<a href="evidence.html"><img src="../assests/images/icons/evidence.png" width="60"></a>';
 
-evindenceElement = '<a href="evidence.html"><img src="../assests/images/icons/evidence.png" width="60"></a>';
+let tasksElement;
+let tasksMurderElement;
+
+let profileElement;
 //#endregion
 
 
-//Header Fill Out: HOME ABOUT EVINDENCE TASKS PROFILE---------------------
-document.getElementById("homeHeader").innerHTML = murder ? homeMurderElement : homeElement;
-//ABOUT doesn't change
+//#region Load Cache Links 
+loadCache(tasksElement, 'tasksElement');
+loadCache(tasksMurderElement, 'tasksMurderElement');
+loadCache(profileElement, 'profileElement');
+//#endregion
+
+if (profileElement == null) //so if not logged in
+{
+    //lead to log on screen
+    profileElement = '<a href="evidence.html"><img src="../assests/images/icons/evidence.png" width="60"></a>'
+    loggedIn = false;
+}
+
+//#region Header Load and Image Load: head = HOME ABOUT EVINDENCE TASKS PROFILE---------------------
+//HOME + ABOUT doesn't change
 document.getElementById("evindenceHeader").innerHTML = murder ? evindenceElement : null;
-document.getElementById("tasksHeader").innerHTML = murder ? homeMurderElement : homeElement;
-document.getElementById("profileHeader").innerHTML = murder ? homeMurderElement : homeElement;
+
+//if not party not started hide tasks then if not logged in hide tasks else show tasks and check if before or after murder
+document.getElementById("tasksHeader").innerHTML = party ? (loggedIn ? (murder ? tasksMurderElement : tasksElement) : null) : null;
+
+document.getElementById("profileHeader").innerHTML = profileElement;
+//#endregion
+
+function saveCache(key, vaule)
+{
+    localStorage.setItem(key, vaule);
+}
+
+function loadCache(variable, key)
+{
+    variable = localStorage.getItem(key)
+    console.log(variable);
+}
+
