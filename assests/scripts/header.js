@@ -27,7 +27,7 @@ loadCache(profileElement, 'profileElement');
 if (profileElement == null) //so if not logged in
 {
     //lead to log on screen
-    profileElement = '<a href="../pages/logon.html"><img src="../assests/images/icons/evidence.png" width="60"></a>'
+    profileElement = '<a href="/pages/logon.html"><img src="/assests/images/icons/evidence.png" width="60"></a>'
     loggedIn = false;
 }
 
