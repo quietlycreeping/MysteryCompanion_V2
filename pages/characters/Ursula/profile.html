@@ -13,16 +13,15 @@
   </head>
 <!--------------------------------Body------------------------------------->
   <body>
-<!-- #region HEADER -->             
+    <!-- #region HEADER -->             
     <nav class="navbar" style="padding: 0 0 1% 0; margin:0 0 2% 0">
       <img src="../../../assests/images/header.jpg" class="object-fit-none" style="overflow: hidden; padding: 0; margin:0">
     </nav>
-    <div style="display: grid; justify-content: space-evenly; grid-template-columns: auto auto auto auto auto;" >
-      <a href="/pages/home.html" id="homeHeader"><img  src="../../../assests/images/icons/home.png" width="60" ></a>
-      <a href="/pages/about.html" id="aboutHeader"><img src="../../../assests/images/icons/tasks.png" width="60" ></a>
-      <span id="evindenceHeader"></span>
+    <div style="display: grid; justify-content: space-evenly; grid-template-columns: auto auto auto auto;" >
+      <a href="home.html" id="homeHeader"><img  src="../../../assests/images/icons/home.png" width="60" ></a>
+      <a href="about.html" id="aboutHeader"><img src="../../../assests/images/icons/about.png" width="60" ></a>
       <span id="tasksHeader"></span>
-      <span id="profileHeader"></span>
+      <a href="profile.html" id="aboutHeader"><img src="../../../assests/images/icons/profile.png" width="60" ></a>
     </div>
 <!-- #endregion -->
 
@@ -104,8 +103,8 @@
      <script> 
       let murder = false;
       //change task link
-      let tasksElement = '<a href="tasks1.html"><img src="../../../assests/images/icons/tasks1.png" width="60"></a>';
-      let tasksMurderElement = '<a href="tasks2.html"><img src="../../../assests/images/icons/tasks2.png" width="60"></a>';
+      let tasksElement = '<a href="tasks1.html"><img src="../../../assests/images/icons/tasks.png" width="60"></a>';
+      let tasksMurderElement = '<a href="tasks2.html"><img src="../../../assests/images/icons/tasks.png" width="60"></a>';
       document.getElementById("tasksHeader").innerHTML = murder ? tasksMurderElement : tasksElement;
     </script>
     <!-- #endregion -->  
