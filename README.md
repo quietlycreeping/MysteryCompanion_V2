@@ -17,10 +17,10 @@ Harley Quinn
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/harley/home.html
 
 Jafar
-https://quietlycreeping.github.io/MysteryCompanion_V2/pages\characters\jafar\home.html
+https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/jafar/home.html
 
 Joker
-https://quietlycreeping.github.io/MysteryCompanion_V2/pages\characters\joker\home.html
+https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/joker/home.html
 
 Maleficent
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/maleficent/home.html
@@ -41,9 +41,9 @@ Evil Queen
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/chucky/home.html
 
 Kingpin
-https://quietlycreeping.github.io/MysteryCompanion_V2/pages\characters\kingpin\home.html
+https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/kingpin/home.html
 
 Chucky
-https://quietlycreeping.github.io/MysteryCompanion_V2/pages\characters\chucky\home.html
+https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/chucky/home.html
 
 
