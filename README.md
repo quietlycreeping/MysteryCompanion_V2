@@ -5,7 +5,7 @@ Ursula
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/ursula/home.html
 
 Cruella Deville
-https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/chucky/home.html
+https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/cruella/home.html
 
 Dracula
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/dracula/home.html
