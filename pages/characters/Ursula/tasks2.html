@@ -26,18 +26,19 @@
       </div>
     </nav>  
 
-    <!--Secrets-->      
+<!-- #region FACTS --> 
     <div class="container mx-auto" style="margin:0 1% 4% 1% ; padding:2% 2% 2% 2%" id="con1">
       <h3>What You Know</h3>
         <ul>
-          <li style="padding-bottom: 2%">You desperately want Santa's legacy to remain untarnished within the family.</li>
-          <li style="padding-bottom: 2%">Santa insisted she will turn over North Pole operations to Jingle if Connie decides not to marry Kristy Krangle .</li>
-          <li style="padding-bottom: 2%">You fear Santa may be outsourcing toy plans from Matteo (a toy company). </li>
-          <li>Connie Claus and Blinky have been up to something secretive, and you fear they may be sabotaging North Pole operations.</li>
+          <li style="padding-bottom: 2%">FACT</li>
+          <li style="padding-bottom: 2%">FACT</li>
+          <li style="padding-bottom: 2%">FACT</li>
+          <li>FACT</li>
         </ul>
     </div>
+<!-- #endregion -->
 
-<!------Tasks------->     
+<!-- #region TASKS -->
     <div class="container mx-auto" style="margin:0 1% 4% 1%; padding:2% 2% 2% 2%"  id="con2">
       <h3>Tasks</h3>
       <div class="container">
@@ -45,59 +46,85 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_1" onclick="saveBoxes()"> 
           <label class="form-check-label" for="flexCheckDefault">  
-            Insist you are glad that Jingle is gone—her influence on Santa was not a positive one..<p></p> 
+            Tasks<p></p> 
           </label></div>
       <!--Task 2-->
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_2" onclick="saveBoxes()">
           <label class="form-check-label">
-            Tell Santa that she may have gone too far to protect her legacy!<p></p> 
+            Tasks<p></p> 
           </label></div>
       <!--Task 3-->
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_3" onclick="saveBoxes()">
           <label class="form-check-label">
-            Tell Connie Claus that you believe Blinky may simply be using her because she is influential at the North Pole.<p></p>  
+            Tasks<p></p>  
           </label></div>
       <!--Task 4-->
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_4" onclick="saveBoxes()">
           <label class="form-check-label">  
-            If asked, admit that you fear Santa may be doing some immoral and illegal things to boost creativity and efficiency in toy production. <p></p>  
+            Tasks<p></p>  
           </label></div>
       <!--Task 5-->
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_5" onclick="saveBoxes()">
           <label class="form-check-label">
-            Confront Blinky regarding her true intentions with your daughter.<p></p>  
+            Tasks<p></p>  
           </label></div>
                 <!--Task 5-->
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_5" onclick="saveBoxes()">
           <label class="form-check-label">
-            Tell Sparky that if they truly want to earn the position of “head elf,” they will need to find Jingle's murderer...and make sure it is NOT Santa.<p></p>  
+            Tasks<p></p>  
           </label></div>
       <!--Task 6-->
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="objective_6" onclick="saveBoxes()">
           <label class="form-check-label">
-            Conduct your own investigation by asking Holiday Wishes what evidence they may have to help you.
+            Tasks
           </label></div>
       </div></div>
+<!-- #endregion -->
 
+<!-- #region EVIDENCE -->
+  <div class="container mx-auto" style="margin:0 1% 2% 1% ; padding:2%" id="con1">
+    <h3>Your Evidence</h3>
+<p>
+  WORDS
+</p>
+<p></p>  <hr>
+ <p> Note: To see your evidence you can...</p>
+  <ul>
+    <li>collect your physical evidence from the grim reaper.
+      <ul>
+        <li> you can either carry it around.</li>
+        <li> or let the reaper hold on to it for you.</li>
+      </ul>
+    </li>
+    <li>text the grim reaper for picture
+        <ul>
+        <li>Her number: (313) 720-3132</li>
+      </ul>
+    </li>
+  </ul>
 
-    <!-----------------Footer---------------------->
-    <footer class="text-lg-start">
+  </div>
+<!-- #endregion -->
+
+<!-- #region FOOTER -->
+    <footer>
       <div class="d-flex justify-start">
         <p>
           Designed by Emily Orlando<br>
           Developed by <a href="https://github.com/quietlycreeping">Jennifer Orlando</a><br>
-          Story by <a href="https://www.nightofmystery.com/">Night of Mystery</a>
+          Story by <a href="https://www.nightofmystery.com/product/a-villains-vendetta/">Night of Mystery</a>
         </p>
       </div>
     </footer>
+<!-- #endregion -->
 
-    <!--Scripts-->
+<!-- #region SCRIPTS -->
     <script src="../assests/scripts/checkbox2Load.js"></script>
     <script>function saveBoxes(){
     //array of all classes of checkboxes
@@ -123,5 +150,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+     <script> 
+      let murder = false;
+      //change task link
+      let tasksElement = '<a href="tasks1.html"><img src="../../../assests/images/icons/tasks1.png" width="60"></a>';
+      let tasksMurderElement = '<a href="tasks2.html"><img src="../../../assests/images/icons/tasks2.png" width="60"></a>';
+      document.getElementById("tasksHeader").innerHTML = murder ? tasksMurderElement : tasksElement;
+    </script>
+    <!-- #endregion -->
   </body>
 </html>

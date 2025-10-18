@@ -21,7 +21,7 @@ hr.dashed {
 
 #profile_con2 /* Personality/realtionships */
 {
-  background-color: #034208;
+  background-color: #750710;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -47,16 +47,16 @@ button.btn
 
 button.btn:hover
 {
-  background-color: #FFB426;
-  border: 2px solid #945D2D;
+  background-color: #E1331D;
+  border: 2px solid #7A1E12;
   color: white;
 
 }
 
 button.btn:focus
 {
-  background-color: #FFB426;
-  border: 2px solid #945D2D;
+  background-color: #E1331D;
+  border: 2px solid #7A1E12;
   color: white;
 }
 

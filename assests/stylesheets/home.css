@@ -27,7 +27,7 @@ body
   h2{
     text-shadow:none
   }
-  background-color: #034208;
+  background-color: #750710;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -56,16 +56,16 @@ button.btn
 
 button.btn:hover
 {
-  background-color: #FFB426;
-  border: 2px solid #945D2D;
+  background-color: #E1331D;
+  border: 2px solid #7A1E12;
   color: white;
 
 }
 
 button.btn:focus
 {
-  background-color: #FFB426;
-  border: 2px solid #945D2D;
+  background-color: #E1331D;
+  border: 2px solid #7A1E12;
   color: white;
 }
 
@@ -80,7 +80,7 @@ div.card.card-body
   h3{
     font-family: "Caveat", serif;
   }
-  background-color: #034208;
+  background-color: #750710;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;

@@ -6,82 +6,74 @@
     <title>Home</title> <!-- TODO: change title--> 
 <!-- #region STYLING --> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
-    <link rel="stylesheet" href="/MysteryCompanion_V2/assests/stylesheets/header.css">
-    <link rel="stylesheet" href="/MysteryCompanion_V2/assests/stylesheets/footer.css">
-    <link rel="stylesheet" href="/MysteryCompanion_V2/assests/stylesheets/home.css"> <!-- TODO: change page CSS-->   
+    <link rel="stylesheet" href="../../../assests/stylesheets/header.css">
+    <link rel="stylesheet" href="../../../assests/stylesheets/footer.css">
+    <link rel="stylesheet" href="../../../assests/stylesheets/home.css"> <!-- TODO: change page CSS-->   
 <!-- #endregion --> 
   </head>
 <!--------------------------------Body------------------------------------->
   <body>
 <!-- #region HEADER -->             
     <nav class="navbar" style="padding: 0 0 1% 0; margin:0 0 2% 0">
-      <img src="/MysteryCompanion_V2/assests/images/header.jpg" class="object-fit-none" style="overflow: hidden; padding: 0; margin:0">
+      <img src="../../../assests/images/header.jpg" class="object-fit-none" style="overflow: hidden; padding: 0; margin:0">
     </nav>
     <div style="display: grid; justify-content: space-evenly; grid-template-columns: auto auto auto auto;" >
-      <a href="/MysteryCompanion_V2/pages/home.html" id="homeHeader"><img  src="/MysteryCompanion_V2/assests/images/icons/home.png" width="60" ></a>
-      <a href="/MysteryCompanion_V2/pages/about.html" id="aboutHeader"><img src="/MysteryCompanion_V2/assests/images/icons/tasks.png" width="60" ></a>
+      <a href="home.html" id="homeHeader"><img  src="../../../assests/images/icons/home.png" width="60" ></a>
+      <a href="about.html" id="aboutHeader"><img src="../../../assests/images/icons/tasks.png" width="60" ></a>
       <span id="tasksHeader"></span>
-      <span id="profileHeader"></span>
+      <a href="about.html" id="aboutHeader"><img src="../../../assests/images/icons/tasks.png" width="60" ></a>
     </div>
 <!-- #endregion -->
 
 
 <!-- #region NEWS --> <!--TODO: change news-->
   <div class="container mx-auto" style="margin:2% ; padding:1%" id="home_con2">
-    <img src="/MysteryCompanion_V2/assests/images/newsletter.jpg" class="img-fluid">
+    <img src="../../../assests/images/newsletter.jpg" class="img-fluid">
     <div id="newsCarousel" class="carousel slide justify-content-center">
       <ol class="carousel-indicators">
         <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#newsCarousel" data-slide-to="1"></li>
         <li data-target="#newsCarousel" data-slide-to="2"></li>
         <li data-target="#newsCarousel" data-slide-to="3"></li>
-        <li data-target="#newsCarousel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="/MysteryCompanion_V2/assests/images/News1.jpg" alt=" 1 slide">
+          <img class="d-block w-100" src="../../../assests/images/News1.jpg" alt=" 1 slide">
             <div class="carousel-caption">
-              <h5><b>New Face at North Pole</b></h5>
-              <p>Straight from the mainland, Santa has recruited Kristy Krangle, a young businesswoman, to work as an intern at the North Pole.<br><br> 
-                While some speculate that Kristy may one day take over as Santa, others feel she is simply here to give business advice.</p>
+              <h5><b>A Night Of Power & Betrayal!</b></h5>
+              <p>The Villains Vanguard gathers soon for its infamous Blood Moon Ball—a night of secret deals, shifting alliances, and ruthless power plays. 
+                With the upcoming induction vote looming, tensions are at an all-time high. Who will rise, and who will be cast aside?</p>
             </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="/MysteryCompanion_V2/assests/images/News2.jpg" alt="2 slide">
+          <img class="d-block w-100" src="../../../assests/images/News2.jpg" alt="2 slide">
             <div class="carousel-caption">
-              <h5><b>Accident Suspect Still on the Loose</b></h5>
-              <p style="font-size: 90%;">Following a tragic accident last week, Hermey remains in a coma in the infirmary. Hermey was on his way home when he was run over by a reindeer.
-                  Jingle Elf is doing her best to investigate the situation and find the guilty party. On Santa's command, the culprit responsible will have their flying privileges 
-                  revoked, thus ending any chance of making or participating as a member of Santa's sleigh team. <br> While it is a heavy price to pay, some feel that it is not nearly enough!</p>
+              <h5><b>Power Struggle Intensifies</b></h5>
+              <p>A fierce rivalry brews between Maleficent and Ursula over who reigns supreme—fairies or witches. Maleficent insists that fairies are superior due to their innate magic, 
+                while Ursula believes witches, who work for their power, are stronger. As tensions rise, will words settle the feud, or will the night end in a clash of spells?</p>
             </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="/MysteryCompanion_V2/assests/images/News3.jpg" alt="3 slide">
+          <img class="d-block w-100" src="../../../assests/images/News3.jpg" alt="3 slide">
             <div class="carousel-caption">
-              <h5><b>Nutrition Warning!</b></h5>
-              <p>Eggnog has been found to cause disorientation in reindeer when consumed in large quantities.<br><br> 
-                For this reason, reindeer are prohibited from drinking eggnog other than at special, supervised occasions.</p>
+              <h5><b>Villains Vanguard Amendment</b></h5>
+              <h6><b>Who Gets To Stay?</b></h6>
+              <p>At the latest Villains Vanguard meeting, Maleficent proposed an amendment restricting future members to only magical or supernatural beings. 
+                The proposal has divided the Alliance. If passed, this rule could alter the future of the Villains Vanguard forever. Will magic and superpowers take precedence, 
+                or will strategy and force prevail?</p>
             </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="/MysteryCompanion_V2/assests/images/News4.jpg" alt="4 slide">
+          <img class="d-block w-100" src="../../../assests/images/News4.jpg" alt="4 slide">
             <div class="carousel-caption">
-              <h5><b>Reindeer Speeds</b></h5>
+              <h5><b>Candidates Up For Induction</b></h5>
               <p>
-                Rudolph: 72 mph<br>
-                Blitzen: 82 mph<br>
-                Comet: 85 mph<br>
-                Cupid: 77 mph<br>
-                Dusty: 85 mph<br>             
+                Evil Queen<br>
+                Chucky<br>
+                Harley Quinn<br>  
+                Medusa<br>
+                Queen of Hearts<br>                         
               </p>
-            </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/MysteryCompanion_V2/assests/images/News5.jpg" alt="5 slide">
-            <div class="carousel-caption">
-              <h5><b>Memo from Santa</b></h5>
-              <p>"I think you are all aware of the growing population and need for continued growth in the workshop.<br><br> 
-                I will be reviewing our processes to make sure we are running as efficiently as possible. Expect some changes this season!"</p>
             </div>
         </div>
       </div>
@@ -105,7 +97,7 @@
     <div class="row">
 <!--Col 1.1, Dracula--> 
         <div class="col">
-          <img src="/MysteryCompanion_V2/assests/images/profile/Santa.jpg" class="img-fluid">
+          <img src="../../../assests/images/profile/Santa.jpg" class="img-fluid">
           <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1_1">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
               <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
@@ -138,7 +130,7 @@
     <div class="row">
   <!--Col 2.1, Ursula--> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Connie.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Connie.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -151,7 +143,7 @@
       </div>
   <!--Col 2.2, Jafar --> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Kristy.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Kristy.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -167,7 +159,7 @@
     <div class="row">
   <!--Col 3.1, Hannibal Lecter--> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Jingle.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Jingle.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -179,7 +171,7 @@
       </div>
   <!--Col 3.2, Kingpin--> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Jangle.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Jangle.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -194,7 +186,7 @@
     <div class="row">
       <!--Col 4.1,Freddy Krueger--> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Ivy.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Ivy.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -206,7 +198,7 @@
       </div>
   <!--Col 4.2, Joker--> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Sparky.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Sparky.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -223,7 +215,7 @@
       <div class="col"></div>
   <!--Col 5.2, Cruella Deville--> 
       <div class="col-6">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Bouncy.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Bouncy.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
           </svg>
@@ -243,7 +235,7 @@
     <div class="row">
 <!--Col 2_1.1, Medusa--> 
       <div class="col">
-        <img src="/MysteryCompanion_V2/assests/images/profile/Santa.jpg" class="img-fluid">
+        <img src="../../../assests/images/profile/Santa.jpg" class="img-fluid">
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_1_1">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
@@ -258,7 +250,7 @@
     </div>
 <!--Col 2_1.2, Evil_Queen --> 
     <div class="col">
-      <img src="/MysteryCompanion_V2/assests/images/profile/MrClaus.jpg" class="img-fluid">
+      <img src="../../../assests/images/profile/MrClaus.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_1_2">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
@@ -275,7 +267,7 @@
   <div class="row">
 <!--Col 2_2.1, Chucky--> 
     <div class="col">
-      <img src="/MysteryCompanion_V2/assests/images/profile/Connie.jpg" class="img-fluid">
+      <img src="../../../assests/images/profile/Connie.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_2_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg>
@@ -285,65 +277,46 @@
           <p>A once-human nightmare in a pint-sized package. Someone underestimated Chucky tonight—an error they won't repeat.</p>        
         </div></div><p></p>
     </div>
-<!--Col 2_2.2, Tiffany --> 
+<!--Col 2_2.2, Queen of Hearts --> 
     <div class="col">
-      <img src="/MysteryCompanion_V2/assests/images/profile/Kristy.jpg" class="img-fluid">
+      <img src="../../../assests/images/profile/Kristy.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_2_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg>
           View Bio</button>
       <div class="collapse" id="collapse2_2_2">
         <div class="card card-body">
-          <p>Part of a terrifying duo. Someone disparaged her beloved, Chucky -and they <b>will</b> painfully pay the price.</p>            
+          <p>A sovereign with a short temper and an iron grip on power. If the vote doesn't go their way, heads will roll.</p>            
         </div></div><p></p>
     </div>
   </div>
 <!--Row 3-->
   <div class="row">
-<!--Col 2_3.1, Queen of Hearts--> 
+<!--Col 2_3.1, Harley Quinn--> 
     <div class="col">
-      <img src="/MysteryCompanion_V2/assests/images/profile/Jingle.jpg" class="img-fluid">
+      <img src="../../../assests/images/profile/Jingle.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_3_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg>
           View Bio</button>
       <div class="collapse" id="collapse2_3_1">
         <div class="card card-body">
-          <p>A sovereign with a short temper and an iron grip on power. If the vote doesn't go their way, heads will roll.</p>              
+          <p>Torn between love and ambition, Harley will get into the Villains Vanguard tonight —or someone will pay.</p>              
         </div></div><p></p>
     </div>
-<!--Col 2_3.2, Harley Quinn--> 
+<!--Col 2_3.2, Poison_Ivy--> 
     <div class="col">
-      <img src="/MysteryCompanion_V2/assests/images/profile/Jangle.jpg" class="img-fluid">
+      <img src="../../../assests/images/profile/Jangle.jpg" class="img-fluid">
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_3_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
           <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg>
           View Bio</button>
       <div class="collapse" id="collapse2_3_2">
         <div class="card card-body">
-          <p>Torn between love and ambition, Harley will get into the Villains Vanguard tonight —or someone will pay.</p>          
+          <p>A genius with a deadly green thumb. Something toxic is circulating tonight, and if Poison Ivy is behind it, they aren't talking.</p>          
         </div></div><p></p>
     </div>
   </div>  
-<!--Row 4-->
-  <div class="row">
-    <!--Col 4.1--> 
-    <div class="col"></div>
-<!--Col 2_4.2, Poison_Ivy--> 
-    <div class="col-6">
-      <img src="/MysteryCompanion_V2/assests/images/profile/Spanky.jpg" class="img-fluid">
-      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2_4_2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="2 -2 14 14">
-          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-        </svg>
-          View Bio</button>
-      <div class="collapse" id="collapse2_4_2">
-        <div class="card card-body">
-          <p>A genius with a deadly green thumb. Something toxic is circulating tonight, and if Poison Ivy is behind it, they aren't talking.</p>            
-        </div></div><p></p>
-    </div>
-<!--Col 4.3--> 
-      <div class="col"></div>
-    </div>
   </div>
 <!-- #endregion -->
 
@@ -375,16 +348,22 @@
 <!-- #endregion -->
 
 <!-- #region SCRIPTING -->
-    <script src="/MysteryCompanion_V2/assests/scripts/header.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    <script>
-      let alivePic = '<img src="/MysteryCompanion_V2/assests/images/profile/Jingle_alive.jpg" class="img-fluid">' //TODO: change images
-      let deadPic = '<img src="/MysteryCompanion_V2/assests/images/profile/Jingle.jpg" class="img-fluid">'
+    <script> 
+      let murder = false;
+      //change picture
+      let alivePic = '<img src="../../../assests/images/profile/Jingle_alive.jpg" class="img-fluid">' //TODO: change images
+      let deadPic = '<img src="../../../assests/images/profile/Jingle.jpg" class="img-fluid">'
       document.getElementById("memberImage").innerHTML = murder ? deadPic : alivePic;
+      
+      //change task link
+      let tasksElement = '<a href="tasks1.html"><img src="../../../assests/images/icons/tasks1.png" width="60"></a>';
+      let tasksMurderElement = '<a href="tasks2.html"><img src="../../../assests/images/icons/tasks2.png" width="60"></a>';
+      document.getElementById("tasksHeader").innerHTML = murder ? tasksMurderElement : tasksElement;
     </script>
 <!-- #endregion -->
   </body>  
