@@ -10,7 +10,7 @@ var loggedIn;
 //#endregion
 
 //#region LoadIn Variables 
-let evindenceElement = '<a href="/MysteryCompanion_V2/pages/evidence.html"><img src="/assests/images/icons/evidence.png" width="60"></a>';
+let evindenceElement = '<a href="/MysteryCompanion_V2/pages/evidence.html"><img src="/MysteryCompanion_V2/assests/images/icons/evidence.png" width="60"></a>';
 
 let tasksElement;
 let tasksMurderElement;
@@ -27,13 +27,12 @@ loadCache(profileElement, 'profileElement');
 if (profileElement == null) //so if not logged in
 {
     //lead to log on screen
-    profileElement = '<a href="/MysteryCompanion_V2/pages/logon.html"><img src="/assests/images/icons/evidence.png" width="60"></a>'
+    profileElement = '<a href="/MysteryCompanion_V2/pages/logon.html"><img src="/MysteryCompanion_V2/assests/images/icons/evidence.png" width="60"></a>'
     loggedIn = false;
 }
 
 //#region Header Load: head = HOME ABOUT EVINDENCE TASKS PROFILE---------------------
 //HOME + ABOUT doesn't change
-document.getElementById("evindenceHeader").innerHTML = murder ? evindenceElement : null;
 
 //if not party not started hide tasks then if not logged in hide tasks else show tasks and check if before or after murder
 document.getElementById("tasksHeader").innerHTML = party ? (loggedIn ? (murder ? tasksMurderElement : tasksElement) : null) : null;
