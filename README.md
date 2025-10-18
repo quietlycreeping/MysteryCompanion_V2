@@ -38,7 +38,7 @@ Freddy Krueger
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/krueger/home.html
 
 Evil Queen
-https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/chucky/home.html
+https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/evil_queen/home.html
 
 Kingpin
 https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/kingpin/home.html
